@@ -8,12 +8,12 @@ Washington Free Beacon, WSJ) with lead images and video. No build step, no frame
 
 | File | Purpose |
 |---|---|
-| `index.html`, `styles.css`, `app.js` | The app. Loads `headlines.json` and renders the card feed (light/dark aware, times shown in Arizona time). |
-| `headlines.json` | Today's digest: `{date, generated_at, stories:[{headline,url,source,published,note,image,video_url,video_page}]}` |
-| `fetch_media.py` | Fills in image / video / publish time / source for a draft list of stories and writes `headlines.json`. |
+| `index.html`, `styles.css`, `app.js` | The app. Loads `headlines.json` and renders the card feed (light/dark aware, times shown in Arizona time). Tapping a card opens an in-app story page at `#/story/<n>` (lead image, source + time, headline, video player, the `body` write-up, and a small link to the original article). Back returns to the feed at the same scroll position. |
+| `headlines.json` | Today's digest: `{date, generated_at, stories:[{headline,url,source,published,note,image,video_url,video_page,body}]}`. `body` is an array of 4–6 paragraph strings written in our own words (see step 3). |
+| `fetch_media.py` | Fills in image / video / publish time / source for a draft list of stories, writes `headlines.json`, and saves each article's text to `.article-cache/` (local only, gitignored). |
 | `manifest.webmanifest`, `sw.js`, `icons/` | Makes it installable (home screen, full-screen) and usable offline with the last digest. |
 | `make_icons.py` | Regenerates the icons with Pillow. |
-| `screenshot.py` | Optional: phone-sized preview screenshots via Playwright (`preview*.png`). |
+| `screenshot.py` | Optional: phone-sized (390x844) screenshots via Playwright: `preview.png`, `preview-dark.png`, `preview-story.png` (`--full` adds `preview-full.png`). Run with `/workspace/.venv-pw/bin/python`. |
 | `draft-YYYY-MM-DD.txt` | The day's picked stories (input to `fetch_media.py`). |
 
 ## Daily refresh
@@ -51,10 +51,40 @@ Washington Free Beacon, WSJ) with lead images and video. No build step, no frame
    A summary line plus any `PROBLEM:` lines (blocked or failed fetches) print at the end.
    Needs `requests` and `beautifulsoup4`.
 
-3. **Check it locally** (optional): `python3 -m http.server 8765` and open
-   `http://localhost:8765/`.
+   It also saves each article's text (body paragraphs, or JSON-LD `articleBody` as a
+   fallback, with captions/promos stripped) to `.article-cache/<slug>.txt`. That folder is
+   gitignored and must never be committed or published. Re-running the script keeps any
+   `body` already written for the same URL. `python3 fetch_media.py --text-only` re-extracts
+   text for the stories already in `headlines.json` without touching it.
 
-4. **Commit and push:**
+3. **Write the story pages (`body`).** This is done by the agent running the routine,
+   not by a script. For each story, read its `.article-cache/*.txt` file and write
+   4–6 short paragraphs **in your own words** into that story's `body` array:
+   - key facts: who, what, when, where, and the numbers that matter;
+   - the other side's response if the article has one;
+   - a closing "Why it matters:" paragraph on what it means for Republicans / Democrats;
+   - at most 1–2 short direct quotes (under ~25 words each), attributed to the speaker.
+
+   Rules: never copy the publisher's paragraphs or sentences, and never add facts, numbers or
+   quotes that aren't in the fetched text. If the text couldn't be fetched (a `PROBLEM:` line),
+   leave `body` empty; the app then shows the note and a "write-up isn't ready" line.
+   An easy way to apply them:
+
+   ```bash
+   python3 - <<'PY'
+   import json
+   bodies = {"https://...story-url...": ["Paragraph 1", "Paragraph 2", "..."]}
+   h = json.load(open("headlines.json"))
+   for s in h["stories"]:
+       s["body"] = bodies.get(s["url"], s.get("body", []))
+   json.dump(h, open("headlines.json", "w"), indent=2, ensure_ascii=False)
+   PY
+   ```
+
+4. **Check it locally** (optional): `python3 -m http.server 8765` and open
+   `http://localhost:8765/` (or `#/story/1` for a story page).
+
+5. **Commit and push:**
 
    ```bash
    git add headlines.json draft-*.txt
@@ -80,7 +110,7 @@ Washington Free Beacon, WSJ) with lead images and video. No build step, no frame
    It opens full-screen like a native app.
 
 If you change `index.html`, `app.js` or `styles.css`, bump `VERSION` in `sw.js`
-so installed copies pick up the new app shell.
+(currently `digest-v2`) so installed copies pick up the new app shell.
 
 ## Automating later
 

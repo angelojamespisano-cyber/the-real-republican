@@ -15,8 +15,15 @@ Nothing is invented: every image / video value comes from the article's own
 HTML (og:image, twitter:image, JSON-LD, Fox video embeds / video links).
 If something can't be found, the field is left null.
 
+It also extracts each article's text (paragraphs from the article body, falling
+back to JSON-LD articleBody) into a LOCAL cache, .article-cache/ (gitignored, never
+published), so the agent running the daily routine can read it and write the
+in-app `body` write-up for each story. The publisher's text is never copied into
+headlines.json. Existing `body` values in the output file are kept for the same URL.
+
 Usage:
   python3 fetch_media.py draft.json            # writes ./headlines.json
+  python3 fetch_media.py --text-only           # just (re)extract text for stories in headlines.json
   cat draft.json | python3 fetch_media.py -o headlines.json
   python3 fetch_media.py draft.txt --date 2026-10-05
 """
@@ -50,6 +57,14 @@ GENERIC_VIDEO = re.compile(r"video headlines|top stories|today'?s video|latest v
                            r"trending|daily video|news ?minute", re.I)
 FOX_VIDEO_PAGE = re.compile(r"https?://(?:www\.)?fox(?:news|business)\.com/video/(\d{6,})")
 FOX_EMBED = "https://video.foxnews.com/v/video-embed.html?video_id={}"
+CACHE_DIR = ".article-cache"
+CAPTION = re.compile(r"\((?:[^()]*?)(Getty|AP Photo|Reuters|REUTERS|AFP|Images|Photo|/X|Bloomberg|"
+                     r"Fox News|courtesy|Screenshot|via )[^()]*\)\s*$")
+# Promo / boilerplate lines inside article bodies.
+BOILERPLATE = re.compile(r"^(click here|like what you're reading|download the|sign up|subscribe|"
+                         r"get the (latest|fox news app)|watch:|read more|related:|"
+                         r"fox news digital (has )?reached out|this story (has been|was) updated|"
+                         r"want more|follow (us|me|fox)|let us know|advertisement)", re.I)
 
 
 def log(*a):
@@ -243,6 +258,54 @@ def extract(url, page):
     return res
 
 
+def extract_text(url, page):
+    """Article paragraphs (list of strings) from the page itself; [] if none found."""
+    soup = BeautifulSoup(page, "html.parser")
+    paras = []
+    for sel in (".article-body", ".single__content", ".entry-content", "[itemprop=articleBody]",
+                ".article-content", "article"):
+        scope = soup.select_one(sel)
+        if not scope:
+            continue
+        for bad in scope.select("aside, figure, figcaption, script, style, .ad-container, "
+                                ".related, .inline-module, .featured-video, .video-container"):
+            bad.decompose()
+        for p in scope.find_all("p"):
+            t = re.sub(r"\s+", " ", p.get_text(" ", strip=True)).strip()
+            if len(t) < 25 or BOILERPLATE.match(t):
+                continue
+            if t.isupper() and len(t) < 160:  # Fox's all-caps promo links
+                continue
+            if CAPTION.search(t):  # photo captions ending in a credit
+                continue
+            paras.append(t)
+        if sum(len(p) for p in paras) > 400:
+            break
+        paras = []
+    if not paras:
+        for it in ld_items(soup):
+            body = it.get("articleBody")
+            if isinstance(body, str) and len(body) > 200:
+                paras = [p.strip() for p in re.split(r"\n+|(?<=[.!?\"”])\s{2,}", body) if p.strip()]
+                break
+    return paras
+
+
+def cache_path(url):
+    slug = re.sub(r"[^a-z0-9]+", "-", urlparse(url).path.lower()).strip("-")[:120] or "article"
+    return f"{CACHE_DIR}/{slug}.txt"
+
+
+def save_text(url, headline, paras):
+    import os
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    path = cache_path(url)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(f"URL: {url}\nHEADLINE: {headline}\nPARAGRAPHS: {len(paras)}\n\n")
+        f.write("\n\n".join(paras) + "\n")
+    return path
+
+
 def parse_input(text):
     text = text.strip()
     if text.startswith(("[", "{")):
@@ -268,12 +331,35 @@ def main():
     ap.add_argument("input", nargs="?", help="draft file (JSON or 'url | headline | note' lines); default stdin")
     ap.add_argument("-o", "--output", default="headlines.json")
     ap.add_argument("--date", help="digest date YYYY-MM-DD (default: today in Arizona)")
+    ap.add_argument("--text-only", action="store_true",
+                    help="only extract article text for the stories already in the output file "
+                         "into .article-cache/ (headlines.json is not changed)")
     args = ap.parse_args()
+
+    if args.text_only:
+        stories = json.load(open(args.output, encoding="utf-8")).get("stories", [])
+        for n, s in enumerate(stories, 1):
+            try:
+                paras = extract_text(s["url"], fetch(s["url"]))
+                path = save_text(s["url"], s.get("headline", ""), paras)
+                log(f"[{n}] {len(paras):2d} paragraphs -> {path}" + ("" if paras else "   !! NO TEXT"))
+            except Exception as e:
+                log(f"[{n}] PROBLEM: {s['url']}: {e}")
+        return
 
     raw = open(args.input, encoding="utf-8").read() if args.input else sys.stdin.read()
     in_date, drafts = parse_input(raw)
     if not drafts:
         sys.exit("no stories in input")
+
+    # Keep bodies already written for the same URL (e.g., when re-running the script).
+    old_bodies = {}
+    try:
+        for s in json.load(open(args.output, encoding="utf-8")).get("stories", []):
+            if s.get("body"):
+                old_bodies[s["url"]] = s["body"]
+    except Exception:
+        pass
 
     now = dt.datetime.now(AZ)
     out = {"date": args.date or in_date or now.date().isoformat(),
@@ -284,9 +370,15 @@ def main():
         log(f"[{n}/{len(drafts)}] {url}")
         story = {"headline": d.get("headline", "").strip(), "url": url,
                  "source": source_for(url), "published": None, "note": d.get("note", "").strip(),
-                 "image": None, "video_url": None, "video_page": None}
+                 "image": None, "video_url": None, "video_page": None,
+                 "body": d.get("body") or old_bodies.get(url) or []}
         try:
-            story.update({k: v for k, v in extract(url, fetch(url)).items() if v})
+            page = fetch(url)
+            story.update({k: v for k, v in extract(url, page).items() if v})
+            paras = extract_text(url, page)
+            log(f"   text: {len(paras)} paragraphs -> {save_text(url, story['headline'], paras)}")
+            if not paras:
+                problems.append(f"{url}: no article text found (write the body from what you can verify)")
         except Exception as e:
             problems.append(f"{url}: {e}")
             log(f"   !! fetch failed: {e}")
@@ -302,7 +394,11 @@ def main():
         f.write("\n")
     imgs = sum(1 for s in out["stories"] if s["image"])
     vids = sum(1 for s in out["stories"] if s["video_url"] or s["video_page"])
+    missing = sum(1 for s in out["stories"] if not s["body"])
     log(f"\nWrote {args.output}: {len(out['stories'])} stories, {imgs} with images, {vids} with video")
+    if missing:
+        log(f"NEXT: {missing} stories need a `body`. Read {CACHE_DIR}/*.txt and write them "
+            f"(see README, 'Write the story pages').")
     for p in problems:
         log("PROBLEM:", p)
 

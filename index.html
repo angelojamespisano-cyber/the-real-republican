@@ -21,7 +21,10 @@
 <body>
   <header class="top">
     <div class="top-inner">
-      <div>
+      <button id="back" class="icon-btn back-btn" aria-label="Back to headlines" hidden>
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <div class="titles">
         <p class="kicker">The Real Republican</p>
         <h1 id="digest-date">Loading&hellip;</h1>
       </div>
@@ -33,15 +36,16 @@
   </header>
 
   <main id="feed" class="feed" aria-live="polite"></main>
+  <article id="story" class="story" hidden></article>
 
   <footer class="foot">
-    <p>Headlines link to the original articles. Images &amp; video &copy; their publishers.</p>
+    <p>Story write-ups are our own summaries of the original reporting; each links to the original article. Images &amp; video &copy; their publishers.</p>
   </footer>
 
   <template id="card-tpl">
     <article class="card">
       <div class="media">
-        <a class="media-link" target="_blank" rel="noopener">
+        <a class="media-link">
           <img class="lead" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">
         </a>
         <button class="play" hidden aria-label="Play video">
@@ -51,11 +55,11 @@
       </div>
       <div class="body">
         <p class="byline"><span class="source"></span><span class="dot">&middot;</span><time class="time"></time></p>
-        <h2 class="headline"><a target="_blank" rel="noopener"></a></h2>
+        <h2 class="headline"><a></a></h2>
         <p class="note"></p>
         <div class="actions">
-          <a class="btn read" target="_blank" rel="noopener">Read story</a>
-          <a class="btn watch" target="_blank" rel="noopener" hidden>
+          <a class="btn read">Read full story</a>
+          <a class="btn watch" hidden>
             <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
             Watch video
           </a>
