@@ -1,94 +1,124 @@
 {
-  "date": "2026-10-22",
-  "generated_at": "2026-10-22T06:55:23-07:00",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T06:54:01-07:00",
   "stories": [
     {
-      "headline": "House Dem leader's attack on voter ID comes back to haunt him after election fraud bust in his home state",
-      "url": "https://www.foxnews.com/politics/house-dem-leaders-attack-voter-id-comes-back-haunt-him-after-election-fraud-bust-his-home-state",
+      "headline": "California must respond to DOJ's emergency request over ballots mailed to alleged noncitizens, court rules",
+      "url": "https://www.foxnews.com/politics/california-must-respond-dojs-emergency-request-over-ballots-mailed-alleged-noncitizens-court-rules",
       "source": "Fox News",
-      "published": "2026-10-22T03:00:52-07:00",
-      "note": "An election fraud bust in his own state undercuts the Democratic leader's attack on voter ID.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/06/pete-aguilar.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407017350112",
-      "video_page": "https://www.foxnews.com/video/6407017350112",
+      "published": "2026-10-24T02:21:53-07:00",
+      "note": "A court is forcing California to answer the DOJ's push over ballots sent to alleged noncitizens, keeping election integrity front and center.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/09/gavin-newsom-speech.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407323506112",
+      "video_page": "https://www.foxnews.com/video/6407323506112",
       "body": [
-        "Rep. Pete Aguilar of California, the chairman of the House Democratic Caucus and the party's No. 3 leader in the House, is taking heat for opposing a voter ID measure on California's November ballot.",
-        "Proposition 39 would require voters to show a government-issued photo ID at the polls. At a press event earlier this month with Democratic governor candidate Xavier Becerra, Aguilar called it a Republican \"voter suppression effort\" and warned that small mistakes or name changes could cost people their votes.",
-        "Weeks later, the Justice Department announced charges against several lawful permanent residents in California accused of registering to vote even though they aren't citizens.",
-        "California Republicans Ken Calvert, Vince Fong and Young Kim pounced, pointing out that Americans already show ID to board a plane, rent a car or pick up a prescription. Fong said the DOJ bust \"is exactly why these safeguards matter.\"",
-        "Newsom's office pushed back on the DOJ case, citing reports that more of those charged were registered Republicans than Democrats and noting that courts have rejected claims of widespread fraud.",
-        "Why it matters: Voter ID is popular nationally and already law in 36 states, so a fraud case landing in California right before the vote gives Republicans a timely argument against a top Democratic leader."
+        "The Ninth Circuit Court of Appeals ordered California late Friday to answer the Justice Department's emergency request by noon Saturday. The dispute centers on roughly 20,000 mail-in ballots that federal investigators say went to people they suspect are not U.S. citizens.",
+        "The DOJ went to the appeals court after U.S. District Judge David Carter didn't rule by the deadline the department had asked for. It wants state officials to set aside ballots tied to the people on its list while their eligibility is checked, instead of counting them with everything else. A hearing before Judge Carter is still on the calendar for Tuesday.",
+        "First Assistant U.S. Attorney Bill Essayli, whose office sued the state on Oct. 15, says 20,000 is the minimum. \"We're not asking California to take any drastic steps other than to sequester the ballots from the suspected noncitizens,\" he said this week.",
+        "California has refused. State officials argue counties have neither the authority nor access to federal records to check citizenship, and that once a ballot's signature is verified it is separated from its envelope, making it impossible to pull back out. Court records show Los Angeles County alone has already processed 331,000 ballots. Gov. Gavin Newsom has defended the state's elections as lawful.",
+        "Why it matters: The fight puts noncitizen voting and California's verification rules in the spotlight days before the midterms, and the clock is working against the DOJ as more ballots are processed every day."
       ]
     },
     {
-      "headline": "Newsom spars with Trump-appointed prosecutor over 20,000 suspected noncitizens on voter rolls",
-      "url": "https://www.foxnews.com/politics/newsom-spars-trump-appointed-prosecutor-20000-suspected-noncitizens-voter-rolls",
+      "headline": "Ex-FBI officials arrested in Hunter Biden laptop probe as testimony comes under scrutiny",
+      "url": "https://www.foxnews.com/politics/ex-fbi-officials-arrested-hunter-biden-laptop-probe-testimony-scrutiny",
       "source": "Fox News",
-      "published": "2026-10-21T09:44:27-07:00",
-      "note": "Newsom is on defense over roughly 20,000 suspected noncitizens on California's voter rolls.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/essayli-newsom-split.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407103100112",
-      "video_page": "https://www.foxnews.com/video/6407103100112",
+      "published": "2026-10-23T08:04:49-07:00",
+      "note": "Arrests in the Hunter Biden laptop probe put the officials behind the 2020 cover story under real legal scrutiny.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/hunterloris.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6398319290112",
+      "video_page": "https://www.foxnews.com/video/6398319290112",
       "body": [
-        "Gov. Gavin Newsom's office and Bill Essayli, the Trump-appointed first assistant U.S. attorney in California's Central District, traded shots online this week over whether the state does enough to keep noncitizens from voting.",
-        "The fight centers on a Justice Department lawsuit asking California to verify the citizenship of more than 20,000 registered voters that federal immigration data flagged as likely noncitizens. Those voters were mailed ballots starting Oct. 1.",
-        "In a court filing, a Los Angeles County election official said the registrar's office isn't set up to verify citizenship beyond a voter's own sworn statement. Essayli called that a \"massive concession,\" writing that \"American citizens' votes are being diluted.\"",
-        "Newsom's office answered that California follows federal law requiring registrants to swear under penalty of perjury that they are citizens, and mocked Essayli's title. The county also argued the DOJ list is unreliable, saying many sampled records were canceled or inactive.",
-        "Essayli said those numbers mean little since the county admits it can't verify citizenship. The DOJ has already charged 28 lawful permanent residents from the list with fraudulently registering, and officials say most of them voted.",
-        "Why it matters: With ballots already being counted, the case puts Newsom and California Democrats on defense over election integrity heading into the midterms."
+        "Two former FBI officials, Nikki Cole Floris and Bradley Benavides, surrendered Friday after the Justice Department charged them with lying to Congress about their roles in investigations of Hunter Biden, including the laptop matter.",
+        "Both served on the FBI's now-disbanded Foreign Influence Task Force, Floris as its head and Benavides as a section chief. In 2023 testimony, Floris denied any involvement in the Hunter Biden probe, and Benavides said he learned of the laptop investigation from Wikipedia. The DOJ says emails show both were in contact with colleagues about Hunter Biden and the investigation.",
+        "U.S. Attorney Jeanine Pirro said senior agents who think they're above the law will face \"the hammer of justice.\" FBI Director Kash Patel said one of the two had privately claimed to be \"running a shadow government\" during the 2020 election.",
+        "Lawyers for both pushed back hard, calling them dedicated career public servants and describing the charges as baseless and politically timed on the eve of an election. Sens. Chuck Grassley and Ron Johnson had earlier accused the pair of taking part in a 2020 FBI briefing on Russian disinformation that the senators say was meant to undercut their Hunter Biden inquiry.",
+        "Why it matters: The laptop was once waved off as possible Russian disinformation before the 2020 election, then later authenticated and used as evidence at Hunter Biden's 2024 gun trial. These charges are the most direct legal accountability yet for how that story was handled inside the FBI."
       ]
     },
     {
-      "headline": "El-Sayed's past Muslim Brotherhood comments raise red flags as he eyes powerful role",
-      "url": "https://www.foxnews.com/politics/el-sayed-past-muslim-brotherhood-comments-raise-red-flags-eyes-powerful-role",
+      "headline": "Jackson again publicly breaks with Supreme Court as justices side with GOP in last-minute voter ID fight",
+      "url": "https://www.foxnews.com/politics/jackson-publicly-breaks-supreme-court-justices-side-gop-last-minute-voter-id-fight",
       "source": "Fox News",
-      "published": "2026-10-21T09:57:18-07:00",
-      "note": "Michigan Democrat Abdul El-Sayed's past comments become a liability in a key Senate race.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/el-sayed-hugs-supporter.png",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407103382112",
-      "video_page": "https://www.foxnews.com/video/6407103382112",
+      "published": "2026-10-23T07:11:24-07:00",
+      "note": "The Supreme Court handed Republicans a voter ID win right before the election, over Justice Jackson's objection.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/ketanji-brown-jackson-lecture-courtroom.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407199356112",
+      "video_page": "https://www.foxnews.com/video/6407199356112",
       "body": [
-        "Michigan Democratic Senate nominee Abdul El-Sayed is facing new scrutiny over a 2011 op-ed in which he urged the Obama administration to back Egyptian protesters tied to the Muslim Brotherhood.",
-        "The issue resurfaced after Jordan Domingue, his security chief during his 2018 run for governor, said El-Sayed badly wants a seat on the Senate Foreign Relations Committee despite having no foreign policy experience.",
-        "Two Republicans on that committee pushed back hard. Sen. Mike Lee said a candidate who cheered the Brotherhood's rise in Egypt \"should not come anywhere near the U.S. Senate.\" Sen. Dave McCormick said someone with El-Sayed's \"radical views has no business on it.\"",
-        "El-Sayed recently said at a town hall that he disavows the Muslim Brotherhood, but his campaign didn't respond to Fox News Digital's questions about the op-ed. He has also tried to distance himself from the party's socialist wing despite appearing with streamer Hasan Piker.",
-        "Why it matters: El-Sayed is running on affordability, and Republicans are working to make his past foreign policy views the story in a Michigan race that could decide control of the Senate."
+        "The Supreme Court on Thursday let New Hampshire block student ID cards from being used for voter identification in the upcoming midterms. Justice Ketanji Brown Jackson was the only justice to publicly dissent.",
+        "The majority leaned on the long-standing principle that lower federal courts generally shouldn't change election rules right before an election, and said the lower courts hadn't shown why New Hampshire deserved an exception.",
+        "The case grew out of a state law that took effect in June removing student IDs from the list of accepted identification. New Hampshire's secretary of state then said student IDs couldn't be used even as backup proof of identity, and a district judge blocked that guidance. The Republican National Committee backed the state.",
+        "Jackson wrote that she would not disturb what she called \"a clearly justifiable federal-court order,\" even with an election looming. It's the latest in a string of solo breaks from her colleagues.",
+        "Why it matters: New Hampshire has a Senate race rated leans Democratic that could help decide control of Congress. College students tend to vote Democratic, so tighter ID rules there are a real, if hard-to-measure, win for Republicans."
       ]
     },
     {
-      "headline": "'Fire every commissioner': Minnesota GOP nominee vows sweeping purge over fraud",
-      "url": "https://www.foxnews.com/politics/mass-firings-vow-sparks-clash-klobuchar-walz-fraud-legacy",
+      "headline": "Virginia Dems cast doubt on prosecution of colleague after embracing criminal allegations against Trump",
+      "url": "https://www.foxnews.com/politics/virginia-dems-cast-doubt-prosecution-colleague-embracing-criminal-allegations-trump",
       "source": "Fox News",
-      "published": "2026-10-21T19:52:48-07:00",
-      "note": "The GOP nominee keeps Walz-era fraud front and center in Minnesota's governor race.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/12/lisa-demuth.png",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407213172112",
-      "video_page": "https://www.foxnews.com/video/6407213172112",
+      "published": "2026-10-24T02:00:15-07:00",
+      "note": "Virginia Democrats are being called out for a double standard on prosecutions now that one of their own is indicted.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/louise_lucas.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407266945112",
+      "video_page": "https://www.foxnews.com/video/6407266945112",
       "body": [
-        "Minnesota's fraud scandals took center stage again in the governor's race as Republican House Speaker Lisa Demuth and Democratic Sen. Amy Klobuchar met for their second debate of the week.",
-        "Demuth promised to fire every state commissioner on her first day and replace them with experts who will bring accountability. \"We have to change the culture of fraud,\" she said.",
-        "Klobuchar called the plan \"absurd\" and said she helped get the U.S. attorney more prosecutors once the fraud came to light. She also took a swipe at outgoing Gov. Tim Walz, saying he \"should have caught the fraud earlier.\"",
-        "Demuth countered that Klobuchar hasn't named any specific policies where she'd break from Walz, whom Klobuchar has called an \"incredible governor.\" Klobuchar, for her part, accused Demuth of being a rubber stamp for President Trump.",
-        "The two also sparred over spending, regulation and public safety. Either way the state will elect its first female governor, and a Demuth win would also make her Minnesota's first Black governor.",
-        "Why it matters: Fraud under a Democratic administration is the defining issue of the race, forcing Klobuchar to criticize her own party's governor while Demuth runs as the reformer."
+        "After the federal indictment of Virginia Senate President Pro Tempore L. Louise Lucas, top Virginia Democrats are now preaching caution and the presumption of innocence, a sharp turn from how many of them talked about the cases against Donald Trump.",
+        "Lt. Gov. Ghazala Hashmi, Attorney General Jay Jones, Gov. Abigail Spanberger, Rep. Bobby Scott and Sens. Mark Warner and Tim Kaine have all stressed due process for Lucas, with some questioning the DOJ's motives. Several of them previously rejected claims that Trump was being targeted, and the state party said in 2023 that Trump was \"rightfully indicted.\" Lucas is a vice chair of that party.",
+        "Prosecutors allege Lucas led a years-long enterprise with relatives and associates involving marijuana distribution, money laundering, bribery and fraud, including at least 100 kilograms of marijuana. FBI Director Kash Patel put the scheme at about $4.5 million. Multiple outlets reported the investigation began under the Biden administration.",
+        "Lucas denies wrongdoing and says the government is trying to silence her: \"I will not be bullied.\" Rep. Suhas Subramanyam called the charges serious but accused the DOJ of timing the arrest for politics. Attorney General Todd Blanche replied, \"We don't do political paybacks.\"",
+        "Why it matters: The episode hands Republicans a clear double-standard argument heading into Election Day, and the probe's Biden-era roots undercut Democrats' claim that it's political payback."
       ]
     },
     {
-      "headline": "France in flames is preview of what 'DSA' Democrats want for US, senator warns",
-      "url": "https://www.foxnews.com/politics/france-flames-preview-what-dsa-democrats-want-us-senator-warns",
+      "headline": "Minnesota candidate 'stress tests' state's new fraud law — what she found raised major red flags",
+      "url": "https://www.foxnews.com/politics/minnesota-candidate-stress-tests-states-new-fraud-law-what-she-found-raised-major-red-flags",
       "source": "Fox News",
-      "published": "2026-10-21T15:12:25-07:00",
-      "note": "A GOP senator ties France's riots to the Democratic Socialists' agenda.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/france-violent-protests-fires-eric-schmitt-split.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407201652112",
-      "video_page": "https://www.foxnews.com/video/6407201652112",
+      "published": "2026-10-24T03:00:07-07:00",
+      "note": "A Minnesota candidate's test of the state's new fraud law adds to the pressure on Walz-era fraud failures.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/01/tim-walz-national-guard-minnesota.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407300728112",
+      "video_page": "https://www.foxnews.com/video/6407300728112",
       "body": [
-        "Sen. Eric Schmitt, R-Mo., says the riots, fires and looting sweeping France are a warning about where Democrats want to take America. \"That's exactly what they want here, the DSA Democrats,\" he told Fox News Digital.",
-        "The unrest in France began as protests over living costs and strained public services before turning violent, leading to curfews in parts of Paris and other cities.",
-        "Schmitt warned that a Democratic House could threaten ICE funding and stall Republican work on immigration, permitting and regulations. He contrasted that with results in Missouri he credits to working with the Trump administration.",
-        "He pointed to Boeing landing the Air Force's F-47 and Navy's F/A-XX fighter programs, which he said would bring 7,000 direct jobs, and to Operation Show Me Justice, an ATF-led surge that the Justice Department says produced 435 arrests and 166 firearms seized in St. Louis.",
-        "Schmitt cast the midterms as \"common sense versus crazy\" but said Republicans can't take any vote for granted, predicting the GOP will hold the Senate while the House is up for grabs.",
-        "Why it matters: Republicans are pairing a law-and-order warning with concrete jobs and crime wins as they make their closing case to voters."
+        "Heidi Heino, the Republican running for Minnesota's 36th Senate District, says she tested Gov. Tim Walz's new fraud-prevention law against the state's past scandals, and found it would have caught them far too late.",
+        "The law sets up an independent statewide Office of the Inspector General to oversee watchdogs, investigate fraud and improve data sharing. Heino, who works in corporate underwriting, ran it against the Feeding Our Future case, where payments to the group jumped about 2,800% from 2020 to 2021 and an estimated $250 million was allegedly stolen from a child nutrition program.",
+        "Her conclusion was that the law would find fraud eventually, but only after the money was gone. She also flagged that roughly 30 complaints to the state Education Department were largely overlooked, with the group sometimes left to correct itself. \"The OIG has good bones, but it needs teeth,\" she said.",
+        "Heino wants automatic payment freezes, full reviews and outside audits when red flags appear, and says the same gaps affect Minnesota's paid leave program, which can pay out before a doctor's certification is verified. She called the law a good first step that doesn't go far enough.",
+        "Why it matters: Minnesota's fraud scandals, from childcare to autism and housing programs, are a central GOP attack on Walz-era Democratic leadership, and Republicans are now pressing the case that the fix still falls short."
+      ]
+    },
+    {
+      "headline": "Antifa supporter charged with stealing GOP campaign signs in NY race to replace Stefanik",
+      "url": "https://www.foxnews.com/politics/antifa-supporter-charged-stealing-gop-campaign-signs-ny-race-replace-stefanik",
+      "source": "Fox News",
+      "published": "2026-10-23T02:30:31-07:00",
+      "note": "An Antifa supporter now faces charges for swiping GOP signs in the race for Stefanik's old seat.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/marris-and-arrows.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6405455390112",
+      "video_page": "https://www.foxnews.com/video/6405455390112",
+      "body": [
+        "Josef Marris of New York was arrested and charged with two counts of criminal possession of stolen property after he was allegedly caught on video taking campaign signs for Republican congressional candidate Anthony Constantino, according to the Essex County Sheriff's Office.",
+        "Constantino's campaign says Marris was using his employer's vehicle and has since been fired from East Branch Organics. Social media posts reviewed by Fox News Digital show Marris describing himself as a communist and an Antifa supporter.",
+        "Constantino says his campaign has lost more than $100,000 to sign theft and vandalism and called the incidents attempts to intimidate his supporters. His campaign alleged Marris acted for Democrat Blake Gendebien; Fox notes there's no established link to Gendebien's campaign, which didn't respond to a request for comment.",
+        "The race for New York's 21st District, the seat Rep. Elise Stefanik is leaving, has tightened. Gendebien currently leads, and a local public radio station shifted the district from solid to likely Republican.",
+        "Why it matters: In a closer-than-expected race, the arrest gives Republicans a concrete example of far-left harassment of GOP campaigns to rally voters around."
+      ]
+    },
+    {
+      "headline": "Federal judge kicked off 'botch job' anti-DEI case after stunning appeals court rebuke",
+      "url": "https://www.foxnews.com/politics/federal-judge-kicked-off-botch-job-anti-dei-case-after-stunning-appeals-court-rebuke",
+      "source": "Fox News",
+      "published": "2026-10-23T11:00:19-07:00",
+      "note": "An appeals court tossed a sloppy order blocking Mississippi's anti-DEI law and removed the judge, so the law is back in force.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/01/dei-sign-protest.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6401129629112",
+      "video_page": "https://www.foxnews.com/video/6401129629112",
+      "body": [
+        "The Fifth Circuit Court of Appeals threw out a federal judge's order blocking Mississippi's anti-DEI law for public schools and universities, and took the rare step of removing him from the case.",
+        "Judge Jerry Smith's opinion called Judge Henry Wingate's handling a \"botch job.\" Wingate's original restraining order listed 11 plaintiffs who were never part of the case, named the wrong defendants, cited declarations from people who may not exist and attributed language to the law that isn't in it. Even the corrected version cited a case that doesn't exist, which the court called \"an apparent AI hallucination.\"",
+        "Wingate later acknowledged a law clerk had used AI to help draft the order and said the errors were clerical. The appeals court rejected that, and also found he misapplied Supreme Court precedent, including Moody v. NetChoice on free speech challenges and Trump v. CASA, which limits overly broad injunctions.",
+        "Smith wrote that the lower court \"ignored and manipulated governing law, apparently to satisfy a policy agenda.\" The case now goes to a new judge in the Southern District of Mississippi.",
+        "Why it matters: Mississippi's DEI restrictions are back in force for now, and the ruling is a sharp rebuke of activist-style judging against conservative state laws."
       ]
     }
   ]
