@@ -1,125 +1,72 @@
 {
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T06:54:01-07:00",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T06:53:02-07:00",
   "stories": [
     {
-      "headline": "California must respond to DOJ's emergency request over ballots mailed to alleged noncitizens, court rules",
-      "url": "https://www.foxnews.com/politics/california-must-respond-dojs-emergency-request-over-ballots-mailed-alleged-noncitizens-court-rules",
+      "headline": "Leavitt says Trump is defying midterm headwinds as he barnstorms country",
+      "url": "https://www.foxnews.com/politics/leavitt-says-trump-defying-midterm-headwinds-he-barnstorms-country",
       "source": "Fox News",
-      "published": "2026-10-24T02:21:53-07:00",
-      "note": "A court is forcing California to answer the DOJ's push over ballots sent to alleged noncitizens, keeping election integrity front and center.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/09/gavin-newsom-speech.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407323506112",
-      "video_page": "https://www.foxnews.com/video/6407323506112",
-      "body": [
-        "The Ninth Circuit Court of Appeals ordered California late Friday to answer the Justice Department's emergency request by noon Saturday. The dispute centers on roughly 20,000 mail-in ballots that federal investigators say went to people they suspect are not U.S. citizens.",
-        "The DOJ went to the appeals court after U.S. District Judge David Carter didn't rule by the deadline the department had asked for. It wants state officials to set aside ballots tied to the people on its list while their eligibility is checked, instead of counting them with everything else. A hearing before Judge Carter is still on the calendar for Tuesday.",
-        "First Assistant U.S. Attorney Bill Essayli, whose office sued the state on Oct. 15, says 20,000 is the minimum. \"We're not asking California to take any drastic steps other than to sequester the ballots from the suspected noncitizens,\" he said this week.",
-        "California has refused. State officials argue counties have neither the authority nor access to federal records to check citizenship, and that once a ballot's signature is verified it is separated from its envelope, making it impossible to pull back out. Court records show Los Angeles County alone has already processed 331,000 ballots. Gov. Gavin Newsom has defended the state's elections as lawful.",
-        "Why it matters: The fight puts noncitizen voting and California's verification rules in the spotlight days before the midterms, and the clock is working against the DOJ as more ballots are processed every day."
-      ]
+      "published": "2026-10-25T02:00:14-07:00",
+      "note": "The White House says Trump's nonstop campaign swing is beating the usual midterm drag on the president's party.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/trump-karoline-leavitt-fox-news.png",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407243295112",
+      "video_page": "https://www.foxnews.com/video/6407243295112",
+      "body": []
     },
     {
-      "headline": "Ex-FBI officials arrested in Hunter Biden laptop probe as testimony comes under scrutiny",
-      "url": "https://www.foxnews.com/politics/ex-fbi-officials-arrested-hunter-biden-laptop-probe-testimony-scrutiny",
+      "headline": "Obama prepares to rally with Michigan Dem who once delivered scathing verdict on his presidency",
+      "url": "https://www.foxnews.com/politics/obama-prepares-rally-michigan-dem-delivered-scathing-verdict-presidency",
       "source": "Fox News",
-      "published": "2026-10-23T08:04:49-07:00",
-      "note": "Arrests in the Hunter Biden laptop probe put the officials behind the 2020 cover story under real legal scrutiny.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/hunterloris.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6398319290112",
-      "video_page": "https://www.foxnews.com/video/6398319290112",
-      "body": [
-        "Two former FBI officials, Nikki Cole Floris and Bradley Benavides, surrendered Friday after the Justice Department charged them with lying to Congress about their roles in investigations of Hunter Biden, including the laptop matter.",
-        "Both served on the FBI's now-disbanded Foreign Influence Task Force, Floris as its head and Benavides as a section chief. In 2023 testimony, Floris denied any involvement in the Hunter Biden probe, and Benavides said he learned of the laptop investigation from Wikipedia. The DOJ says emails show both were in contact with colleagues about Hunter Biden and the investigation.",
-        "U.S. Attorney Jeanine Pirro said senior agents who think they're above the law will face \"the hammer of justice.\" FBI Director Kash Patel said one of the two had privately claimed to be \"running a shadow government\" during the 2020 election.",
-        "Lawyers for both pushed back hard, calling them dedicated career public servants and describing the charges as baseless and politically timed on the eve of an election. Sens. Chuck Grassley and Ron Johnson had earlier accused the pair of taking part in a 2020 FBI briefing on Russian disinformation that the senators say was meant to undercut their Hunter Biden inquiry.",
-        "Why it matters: The laptop was once waved off as possible Russian disinformation before the 2020 election, then later authenticated and used as evidence at Hunter Biden's 2024 gun trial. These charges are the most direct legal accountability yet for how that story was handled inside the FBI."
-      ]
+      "published": "2026-10-24T08:00:19-07:00",
+      "note": "Obama's Michigan stop puts a spotlight on a Democrat who once trashed his presidency.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/ObamaElSayedSplit.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6406978443112",
+      "video_page": "https://www.foxnews.com/video/6406978443112",
+      "body": []
     },
     {
-      "headline": "Jackson again publicly breaks with Supreme Court as justices side with GOP in last-minute voter ID fight",
-      "url": "https://www.foxnews.com/politics/jackson-publicly-breaks-supreme-court-justices-side-gop-last-minute-voter-id-fight",
+      "headline": "Omar’s deleted tweet could give clue on alleged marriage to her brother",
+      "url": "https://www.foxnews.com/politics/omars-deleted-tweet-clue-alleged-brother-marriage",
       "source": "Fox News",
-      "published": "2026-10-23T07:11:24-07:00",
-      "note": "The Supreme Court handed Republicans a voter ID win right before the election, over Justice Jackson's objection.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/ketanji-brown-jackson-lecture-courtroom.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407199356112",
-      "video_page": "https://www.foxnews.com/video/6407199356112",
-      "body": [
-        "The Supreme Court on Thursday let New Hampshire block student ID cards from being used for voter identification in the upcoming midterms. Justice Ketanji Brown Jackson was the only justice to publicly dissent.",
-        "The majority leaned on the long-standing principle that lower federal courts generally shouldn't change election rules right before an election, and said the lower courts hadn't shown why New Hampshire deserved an exception.",
-        "The case grew out of a state law that took effect in June removing student IDs from the list of accepted identification. New Hampshire's secretary of state then said student IDs couldn't be used even as backup proof of identity, and a district judge blocked that guidance. The Republican National Committee backed the state.",
-        "Jackson wrote that she would not disturb what she called \"a clearly justifiable federal-court order,\" even with an election looming. It's the latest in a string of solo breaks from her colleagues.",
-        "Why it matters: New Hampshire has a Senate race rated leans Democratic that could help decide control of Congress. College students tend to vote Democratic, so tighter ID rules there are a real, if hard-to-measure, win for Republicans."
-      ]
+      "published": "2026-10-24T07:04:28-07:00",
+      "note": "Fresh scrutiny of a deleted Omar tweet keeps the marriage questions dogging her.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/01/ilhan-omar-minneapolis-minnesota.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407309731112",
+      "video_page": "https://www.foxnews.com/video/6407309731112",
+      "body": []
     },
     {
-      "headline": "Virginia Dems cast doubt on prosecution of colleague after embracing criminal allegations against Trump",
-      "url": "https://www.foxnews.com/politics/virginia-dems-cast-doubt-prosecution-colleague-embracing-criminal-allegations-trump",
+      "headline": "Second Amendment fight moves beyond guns with Supreme Court poised for big ruling",
+      "url": "https://www.foxnews.com/politics/second-amendment-fight-moving-beyond-guns-supreme-court-could-widen-further",
       "source": "Fox News",
-      "published": "2026-10-24T02:00:15-07:00",
-      "note": "Virginia Democrats are being called out for a double standard on prosecutions now that one of their own is indicted.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/louise_lucas.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407266945112",
-      "video_page": "https://www.foxnews.com/video/6407266945112",
-      "body": [
-        "After the federal indictment of Virginia Senate President Pro Tempore L. Louise Lucas, top Virginia Democrats are now preaching caution and the presumption of innocence, a sharp turn from how many of them talked about the cases against Donald Trump.",
-        "Lt. Gov. Ghazala Hashmi, Attorney General Jay Jones, Gov. Abigail Spanberger, Rep. Bobby Scott and Sens. Mark Warner and Tim Kaine have all stressed due process for Lucas, with some questioning the DOJ's motives. Several of them previously rejected claims that Trump was being targeted, and the state party said in 2023 that Trump was \"rightfully indicted.\" Lucas is a vice chair of that party.",
-        "Prosecutors allege Lucas led a years-long enterprise with relatives and associates involving marijuana distribution, money laundering, bribery and fraud, including at least 100 kilograms of marijuana. FBI Director Kash Patel put the scheme at about $4.5 million. Multiple outlets reported the investigation began under the Biden administration.",
-        "Lucas denies wrongdoing and says the government is trying to silence her: \"I will not be bullied.\" Rep. Suhas Subramanyam called the charges serious but accused the DOJ of timing the arrest for politics. Attorney General Todd Blanche replied, \"We don't do political paybacks.\"",
-        "Why it matters: The episode hands Republicans a clear double-standard argument heading into Election Day, and the probe's Biden-era roots undercut Democrats' claim that it's political payback."
-      ]
+      "published": "2026-10-24T13:26:40-07:00",
+      "note": "The Supreme Court looks ready to widen Second Amendment protections.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/National-Association-for-Gun-Rights-President-Dudley-Brown.png",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407348878112",
+      "video_page": "https://www.foxnews.com/video/6407348878112",
+      "body": []
     },
     {
-      "headline": "Minnesota candidate 'stress tests' state's new fraud law — what she found raised major red flags",
-      "url": "https://www.foxnews.com/politics/minnesota-candidate-stress-tests-states-new-fraud-law-what-she-found-raised-major-red-flags",
+      "headline": "Trump's war on drug cartels could gain powerful new ally after pivotal election",
+      "url": "https://www.foxnews.com/politics/trumps-war-drug-cartels-could-gain-powerful-new-ally-after-pivotal-election",
       "source": "Fox News",
-      "published": "2026-10-24T03:00:07-07:00",
-      "note": "A Minnesota candidate's test of the state's new fraud law adds to the pressure on Walz-era fraud failures.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/01/tim-walz-national-guard-minnesota.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407300728112",
-      "video_page": "https://www.foxnews.com/video/6407300728112",
-      "body": [
-        "Heidi Heino, the Republican running for Minnesota's 36th Senate District, says she tested Gov. Tim Walz's new fraud-prevention law against the state's past scandals, and found it would have caught them far too late.",
-        "The law sets up an independent statewide Office of the Inspector General to oversee watchdogs, investigate fraud and improve data sharing. Heino, who works in corporate underwriting, ran it against the Feeding Our Future case, where payments to the group jumped about 2,800% from 2020 to 2021 and an estimated $250 million was allegedly stolen from a child nutrition program.",
-        "Her conclusion was that the law would find fraud eventually, but only after the money was gone. She also flagged that roughly 30 complaints to the state Education Department were largely overlooked, with the group sometimes left to correct itself. \"The OIG has good bones, but it needs teeth,\" she said.",
-        "Heino wants automatic payment freezes, full reviews and outside audits when red flags appear, and says the same gaps affect Minnesota's paid leave program, which can pay out before a doctor's certification is verified. She called the law a good first step that doesn't go far enough.",
-        "Why it matters: Minnesota's fraud scandals, from childcare to autism and housing programs, are a central GOP attack on Walz-era Democratic leadership, and Republicans are now pressing the case that the fix still falls short."
-      ]
+      "published": "2026-10-24T06:30:45-07:00",
+      "note": "A pivotal foreign election could hand Trump a new partner against the cartels.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/brazil-elections-war-on-drugs.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6406974645112",
+      "video_page": "https://www.foxnews.com/video/6406974645112",
+      "body": []
     },
     {
-      "headline": "Antifa supporter charged with stealing GOP campaign signs in NY race to replace Stefanik",
-      "url": "https://www.foxnews.com/politics/antifa-supporter-charged-stealing-gop-campaign-signs-ny-race-replace-stefanik",
+      "headline": "Socialism's growing appeal meets an awkward reality check on college campus",
+      "url": "https://www.foxnews.com/politics/socialisms-growing-appeal-meets-awkward-reality-check-college-campus",
       "source": "Fox News",
-      "published": "2026-10-23T02:30:31-07:00",
-      "note": "An Antifa supporter now faces charges for swiping GOP signs in the race for Stefanik's old seat.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/marris-and-arrows.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6405455390112",
-      "video_page": "https://www.foxnews.com/video/6405455390112",
-      "body": [
-        "Josef Marris of New York was arrested and charged with two counts of criminal possession of stolen property after he was allegedly caught on video taking campaign signs for Republican congressional candidate Anthony Constantino, according to the Essex County Sheriff's Office.",
-        "Constantino's campaign says Marris was using his employer's vehicle and has since been fired from East Branch Organics. Social media posts reviewed by Fox News Digital show Marris describing himself as a communist and an Antifa supporter.",
-        "Constantino says his campaign has lost more than $100,000 to sign theft and vandalism and called the incidents attempts to intimidate his supporters. His campaign alleged Marris acted for Democrat Blake Gendebien; Fox notes there's no established link to Gendebien's campaign, which didn't respond to a request for comment.",
-        "The race for New York's 21st District, the seat Rep. Elise Stefanik is leaving, has tightened. Gendebien currently leads, and a local public radio station shifted the district from solid to likely Republican.",
-        "Why it matters: In a closer-than-expected race, the arrest gives Republicans a concrete example of far-left harassment of GOP campaigns to rally voters around."
-      ]
-    },
-    {
-      "headline": "Federal judge kicked off 'botch job' anti-DEI case after stunning appeals court rebuke",
-      "url": "https://www.foxnews.com/politics/federal-judge-kicked-off-botch-job-anti-dei-case-after-stunning-appeals-court-rebuke",
-      "source": "Fox News",
-      "published": "2026-10-23T11:00:19-07:00",
-      "note": "An appeals court tossed a sloppy order blocking Mississippi's anti-DEI law and removed the judge, so the law is back in force.",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/01/dei-sign-protest.jpg",
-      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6401129629112",
-      "video_page": "https://www.foxnews.com/video/6401129629112",
-      "body": [
-        "The Fifth Circuit Court of Appeals threw out a federal judge's order blocking Mississippi's anti-DEI law for public schools and universities, and took the rare step of removing him from the case.",
-        "Judge Jerry Smith's opinion called Judge Henry Wingate's handling a \"botch job.\" Wingate's original restraining order listed 11 plaintiffs who were never part of the case, named the wrong defendants, cited declarations from people who may not exist and attributed language to the law that isn't in it. Even the corrected version cited a case that doesn't exist, which the court called \"an apparent AI hallucination.\"",
-        "Wingate later acknowledged a law clerk had used AI to help draft the order and said the errors were clerical. The appeals court rejected that, and also found he misapplied Supreme Court precedent, including Moody v. NetChoice on free speech challenges and Trump v. CASA, which limits overly broad injunctions.",
-        "Smith wrote that the lower court \"ignored and manipulated governing law, apparently to satisfy a policy agenda.\" The case now goes to a new judge in the Southern District of Mississippi.",
-        "Why it matters: Mississippi's DEI restrictions are back in force for now, and the ruling is a sharp rebuke of activist-style judging against conservative state laws."
-      ]
+      "published": "2026-10-25T05:00:35-07:00",
+      "note": "Students drawn to socialism stumble when asked how it would actually work.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/MichiganStudents.jpg",
+      "video_url": "https://video.foxnews.com/v/video-embed.html?video_id=6407307249112",
+      "video_page": "https://www.foxnews.com/video/6407307249112",
+      "body": []
     }
   ]
 }
